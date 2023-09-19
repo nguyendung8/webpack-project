@@ -1,0 +1,12 @@
+$textSize: '25px';
+$titleColor: 'red';
+
+.header {
+  &_title {
+    color: $titleColor;
+  }
+  &_des {
+    color: green;
+    font-size: $textSize;
+  }
+}
